@@ -10,6 +10,24 @@ Projet de compilation et génération de code réalisé dans le cadre de l'UE Co
 
 Le but de ce projet est de créer un compilateur de TPC, un sous-ensemble du langage C, à partir du projet d'Analyse Syntaxique du semestre précédent. Le compilateur doit détecter et signaler les erreurs sémantiques dans le code source, prendre en charge les variables globales, les tableaux, les fonctions, les appels de fonctions, les expressions arithmétiques et les instructions de contrôle, ainsi que générer du code nasm pour Unix à partir du code source.
 
+## Build et execution
+
+Toutes les commandes doivent être exécutées dans la racine du projet. Pour build, il faut lancer la commande.
+
+```sh
+make
+```
+
+Le compilateur se trouvera alors dans le dossier `./bin`.
+
+La commande
+
+```sh
+make tests
+```
+
+permet de tester que le compilateur fonctionne correctement, en utilisant les fichiers sources se trouvant dans `./test`. Cette commande effectue le build au préalable.
+
 ## Difficultés Rencontrées
 
 ### Passage de paramètres
