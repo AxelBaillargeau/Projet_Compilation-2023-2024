@@ -1,0 +1,18 @@
+void printint(int a) {
+    putint(a);
+    putchar('\n');
+}
+
+int main(void) {
+    int a, b, c, result;
+    a = 1;
+    b = 2;
+    c = 0;
+
+    result = a && b + (a && b);  // 1 car `+` a une priorité plus élevée que `&&`
+    printint(result);
+    result = c || b + (c || b);  // 1
+    printint(result);
+
+    return result;
+}

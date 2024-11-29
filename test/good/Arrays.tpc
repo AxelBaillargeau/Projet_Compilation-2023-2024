@@ -1,0 +1,22 @@
+int test_glb[10];
+
+void printint(int a) {
+    putint(a);
+    putchar('\n');
+}
+
+int main(void) {
+    int test[10];
+    int a, i;
+    while (i < 10) {
+        test[i] = i + 1;
+
+        printint(test[i]);
+        i = i + 1;
+    }
+    a = test[0];
+    putint(a);
+
+    putchar('\n');
+    return 0;
+}

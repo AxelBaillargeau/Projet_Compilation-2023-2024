@@ -1,0 +1,8 @@
+char main(void){
+    char a;
+    a = 'a';
+    a = '\b';
+    a = '\f';
+    a = 'aa'; // erreur
+    return a;
+}

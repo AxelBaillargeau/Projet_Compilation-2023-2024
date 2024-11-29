@@ -1,0 +1,5 @@
+int a, b, c;
+
+char a, b, c;  // duplicate definition of 'a'
+
+int main(void) { return 0; }

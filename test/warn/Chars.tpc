@@ -1,0 +1,14 @@
+char main(void) {
+    char a, b;
+    a = 'a';
+    b = 'b';
+    a = b;
+    a = '\n';
+    a = '\t';
+    a = '\0';
+    a = '\s';
+    a = '\'';
+    a = '\\';
+    putchar(a);
+    return '\0';
+}

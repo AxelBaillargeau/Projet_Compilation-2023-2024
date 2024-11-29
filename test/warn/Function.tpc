@@ -1,0 +1,45 @@
+int main(void) { return 0; }
+
+void fun(char a, int b) {}
+
+void fun1(int a, char b) {}
+
+void fun2(int a, int b) {
+    int c;
+    c = a + b;
+}
+
+void fun3(int a, int b) {
+    int c;
+    c = a + b;
+    return;
+}
+
+int fun4(int a, int b) {
+    int c;
+    c = a + b;
+    return c;
+}
+
+int fun5(int a, int b) {
+    int c;
+    c = a + b;
+    return c;
+}
+
+int fun6(int a[], int b) {
+    int c, r2;
+    c = a[0] + b;
+    fun(1, b, c, r2);
+    return c;
+}
+
+void function1(void) {}
+void function2(void) {}
+
+void function3(void) {
+    int a;
+    a = 1;
+    a = function1();
+    a = function2(1);
+}

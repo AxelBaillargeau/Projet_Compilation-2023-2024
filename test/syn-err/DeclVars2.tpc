@@ -1,0 +1,11 @@
+int main(void){
+    int a,b;
+
+    if (a == b){
+        int a,b; // error
+        a = 1;
+        b = 2;
+    } else {
+        a = 2;
+    }
+}

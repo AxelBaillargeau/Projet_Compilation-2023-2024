@@ -1,0 +1,28 @@
+// Déclaration de la variable globale
+int globalVar;
+
+/* Fonction principale
+ */
+
+/* Fonction principale */
+int main(void) {
+    // Déclaration des variables locales
+    int a, b;
+
+    // Initialisation des variables
+    a = 5;
+    b = 10;
+
+    // Appel de la fonction et stockage du résultat
+    // int result = addNumbers(a, b);
+
+    // Retourne 0 pour indiquer une exécution sans erreur
+    return 0;
+}
+
+// Définition de la fonction addNumbers
+int addNumbers(int x, int y) {
+    // Retourne la somme des deux arguments
+    return x + y;
+}
+/*

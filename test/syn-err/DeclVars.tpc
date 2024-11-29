@@ -1,0 +1,4 @@
+int a = 1;
+// erreur car on ne peut pas faire d'attributions lors d'une déclaration
+
+int main(void);

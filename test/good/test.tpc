@@ -1,0 +1,7 @@
+int main(void) {
+    int n;
+    n = 15;
+    putint(n * 15);
+    putchar('\n');
+    return 0;
+}

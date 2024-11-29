@@ -1,0 +1,40 @@
+/* #include <stdio.h>
+   #include <math.h> */
+/* int trinome(float a, float b, float c) ;
+    double valeur(double a, double b, double c, double x) ; */
+/* Résolution d'une équation du deuxième degré */
+int a, e;
+int max;
+
+int sqrt(int x);
+void print(int x);
+int valeur(int a, int b, int c, int x);
+
+int main(void) {
+    int b, c;
+    while (1) {
+        while (2) {
+            print(valeur(1, b, c, a));
+            print(valeur(1, , b, c, e));  // erreur car virgule en trop/variable manquante
+        }
+        c = c + 1;
+    }
+    b = b + 1;
+}
+
+int trinome(int a, int b, int c) {
+    int d;
+    int s;
+    d = b * b - 4 * a * c;
+    if (d >= 0) {
+        s = sqrt(d);
+        a = (-b + s) / (2 * a);
+        e = (-b - s) / (2 * a);
+        return 1;
+    }
+    return 0;
+}
+
+int valeur(int a, int b, int c, int x) {
+    return a * x * x + b * x + c;
+}

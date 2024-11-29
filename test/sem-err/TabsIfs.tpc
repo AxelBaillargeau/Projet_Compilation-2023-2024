@@ -1,0 +1,8 @@
+int main(void) {
+    int tab[10];
+    if (tab) {
+        putchar('1');  // oh no
+    }
+
+    return 0;
+}

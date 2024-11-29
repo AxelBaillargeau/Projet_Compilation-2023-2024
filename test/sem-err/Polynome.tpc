@@ -1,0 +1,15 @@
+int polynom_constants[3];
+
+void pol(char inputA, char inputB, char outputC) {
+    int targetCoord[3];
+    polynom_constants[0] = v_f32_ld_tnsr_i_b(targetCoord, inputA, 1, 0);  // function not defined
+    targetCoord[0] = targetCoord[0] + 1;
+    polynom_constants[1] = v_f32_ld_tnsr_i_b(targetCoord, inputA, 1, 0);
+    targetCoord[0] = targetCoord[0] + 1;
+    polynom_constants[2] = v_f32_ld_tnsr_i_b(targetCoord, inputA, 1, 0);
+}
+
+int main(void) {
+    pol(0, 0, 0);
+    return 0;
+}

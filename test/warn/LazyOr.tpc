@@ -1,0 +1,19 @@
+int main(void) {
+    if ((0 || 0) || (1 || 0)) {  // enter
+        putchar('1');
+        putchar('\n');
+    }
+    if (1 || 0) {  // lazy enter
+        putchar('2');
+        putchar('\n');
+    }
+    if (0 || 1) {  // enter
+        putchar('3');
+        putchar('\n');
+    }
+    if (0 && 1) {  // lazy skip
+        putchar('4');
+        putchar('\n');
+    }
+    return 0;
+}

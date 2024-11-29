@@ -1,0 +1,6 @@
+
+int foo(int a, int b[]) { return a - b[0]; }
+
+int bar(int a, int b) { return foo(a, b); }  // b is not an array
+
+int main(void) { return 0; }

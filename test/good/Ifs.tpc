@@ -1,0 +1,19 @@
+int main(void) {
+    // if (1)
+    //     ;
+    if (1) {
+        if (2)
+            ;
+    } else {
+        if (3)
+            ;
+    }
+    // if (1)
+    //     if (2)
+    //         ;
+    //     else  // appartient au if(2)
+    //         if (3)
+    //             ;
+
+    return 0;
+}

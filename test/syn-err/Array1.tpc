@@ -1,0 +1,3 @@
+int a[] // on doit donner la taille du tableau lors de la déclaration
+
+int main(void){}

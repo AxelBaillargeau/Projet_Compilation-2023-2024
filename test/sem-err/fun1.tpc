@@ -1,0 +1,9 @@
+int add(int a, int b) { return a + b; }
+
+int main(void) {
+    int a, b, c;
+    a = 1;
+    b = 2;
+    c = add(a, b, 3);  // too many arguments
+    return 0;
+}

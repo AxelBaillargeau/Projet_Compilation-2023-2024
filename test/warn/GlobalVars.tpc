@@ -1,0 +1,6 @@
+int a, b;
+
+int c;
+int d;
+
+void main(void) {}

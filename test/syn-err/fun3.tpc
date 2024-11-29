@@ -1,0 +1,2 @@
+int fun(int a[10]) {} 
+// erreur car on ne doit pas préciser la taille du tableau

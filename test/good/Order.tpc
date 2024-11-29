@@ -1,0 +1,14 @@
+int main(void) {
+    int a, b;
+
+    a = a < b;
+    a = a > b;
+    a = a <= b;
+    a = a >= b;
+    a = a == b;
+    a = a != b;
+
+    a = a == 1;
+    a = 1 == a;
+    return 0;
+}

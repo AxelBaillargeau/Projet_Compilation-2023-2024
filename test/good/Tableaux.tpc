@@ -1,0 +1,31 @@
+int glob[10];
+
+int get(int tab[], int i) { return tab[i]; }
+
+int main(void) {
+    int index;
+    int test[10];
+    glob[6] = 6;
+    // index = 1;
+    index = 2;
+    // test[0] = 5;
+    // index = test[0];
+    test[6] = 5;
+    test[2] = 52;
+    // glob[6] = test[index];
+    // glob[index] = test[index];
+    // test[index] = 6;
+    // putint(index);
+    // putchar('\n');
+    putint(test[index]);
+    putchar('\n');
+    putint(glob[6]);
+    putchar('\n');
+    putint(get(test, 6));
+    putchar('\n');
+    putint(get(test, index));
+    putchar('\n');
+    putint(get(glob, 6));
+    putchar('\n');
+    return 0;
+}
