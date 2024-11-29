@@ -29,7 +29,6 @@ static void asm_from_tree(Node *tree, Context *cont, FILE *file, Type func_type)
 static int trad_expr(Node *tree, Context *const cont, FILE *file, char *const reg_res, Type *type, char const push);
 static void param_size_check(int read_size, int param_size, Type param_type, Node *param);
 static void write_arg_passing(int read_size, int param_size, FILE *file, int offset, Type param_type);
-static void crash(FILE *file, int sig) { fprintf(file, "\tmov rdi, %d\n\tmov rax, 60\n\tsyscall\n", sig); }
 static void save_rbp(FILE *file) {
     fprintf(file, "\tpush rbp\n\tmov rbp, rsp");
     if (debug) fprintf(file, "; save rbp");
